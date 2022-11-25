@@ -1,0 +1,532 @@
+/* * {
+    padding: 0px;
+    margin: 0px;
+}
+#Big1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Big1 ul {
+    color: white;
+    display: flex; 
+    list-style-type: none;
+}
+#Big1 ul li {
+    margin: 30px;
+}
+header {
+    background-image: url(Bg\ \(7\).png) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#but1 {
+    background-color:rgba(0, 0, 0, 0.349);
+    width: 231px;
+    height: 60px;
+    color: white;
+    transition: width 0.1s, height 0.1s;
+}
+#but2 {
+    border-color: white;
+    background-color:rgba(255, 255, 255, 0.349);
+    width: 231px;
+    height: 60px;
+    color: white;
+    transition: width 0.1s, height 0.1s;
+}
+#but1:active {
+    width: 262px;
+    height: 91px;
+    
+}
+#but2:active {
+    width: 262px;
+    height: 91px;
+}
+.ai{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    height: 600px;
+    
+}
+.lp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sec1{
+   display: flex;
+}
+
+.bigDiv3{
+    width: 100%;
+     height: 600px;  
+    background-image: url(bg\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    color: aliceblue;
+    display: flex;
+    justify-content:flex-end;
+    
+    align-items: center; 
+    
+}
+
+.lll{
+    width: 520px;
+    background-color: rgba(0, 0, 0, 0.349);
+    height: 400px;
+     /* display: flex; 
+    flex-direction: column;
+    justify-content: center;   
+    text-align: center;
+    margin-right: 50px;
+
+    
+}
+
+
+#Big2{
+    display: flex;
+     flex-direction: column;
+     justify-content:space-between;
+     align-items: center;
+    height:400px;
+    margin-top: 50px;
+}
+.text1 {
+    color: aliceblue;
+    font-size: 80px;
+    display: flex;
+    text-align: center;
+   
+}
+#h{
+    width: 172px;
+}
+#v{
+    width: 172px;
+}
+#y{
+    width: 172px;
+}
+.l5{
+    display: flex;
+}
+
+
+#rio{
+    width: 600px;
+}
+#wan{
+    width: 410px;
+}
+#tri{
+    width: 320px;
+}
+#for{
+    width: 200px;
+}
+    
+  /* .o{
+     height: 400px;
+     display: flex;
+    justify-content: space-around;
+  }
+  .oo{
+    display: flex;
+    justify-content: space-around;
+  } 
+  .biging{
+    width: 100%;
+     min-height: 600px;  
+    background-image: url(bg\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+#pu2{
+  width: 500px;
+}
+
+.book{
+    width: 520px;
+    background-color: rgba(0, 0, 0, 0.349);
+    height: 400px;
+     display: flex; 
+    flex-direction: column;
+    justify-content: center;  
+    text-align: center;
+    align-items: center;
+    
+
+    
+}
+.wrabot{
+ display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.o{
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+   justify-content: space-around;
+
+}
+.oo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+  .verjin{
+     text-align: center;
+  }
+  .verjin2{
+   text-align: center;
+}
+.verjin3{
+   text-align: center;
+}
+.prcanc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(5, 6, 16);
+    height: 200px;
+    
+  }
+   #a41{
+    margin-right: 40px;
+    margin-top: 40px;
+  }
+ 
+
+#a22{
+    margin-left: 40px;
+    margin-bottom: 40px;
+ }  
+ .prrr{
+     display: flex;
+     justify-content: space-evenly;
+     width: 600px;
+     text-align: center;
+ }
+ .bklik{
+     text-align: center;
+ }
+  .sle{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 600px;
+  }
+  .yhh{
+      display: flex;
+      margin-top: 40px;
+  }
+  .yhhh{
+      display: flex;
+      margin-top: 20px;
+}
+  .xas1{
+      margin-right: 20px;
+      height: 30px;
+  }
+  .xas4{
+    margin-left: 20px;
+}
+.laveshopar{
+     background-color: goldenrod;
+     color: white;
+     width: 130px ;
+     height: 30px;
+     margin-top: 40px;
+     margin-right: 20px;
+}
+.kakaxandl{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#kak2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#kak5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#kak9{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#kak7{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#kak11{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ @media only screen and (max-width: 1000px){
+    .sle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1200px; 
+    }
+    .text1 {
+      font-size: 40px
+      
+          
+    }
+    .prcanc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        height: 700px;
+        margin: 0;
+    }
+    .verjin{
+       margin-bottom: 40px;
+       margin-right: 0;
+     }
+     .verjin2{
+    
+   }
+   .verjin3{
+    margin-top: 40px;
+    margin-left: 0;
+   }
+    #small2 ul li{
+        margin: 20px;
+    }
+    #but1  {
+     height: 40px;
+       
+      
+    }
+    #but2  {
+        height: 40px;
+          
+         
+       }
+       #Big2{
+        height: 300px;
+    }
+    .lp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
+#rio{
+    margin-top: 60px;
+    width: 400px;
+    align-items: center;
+}
+}
+@media only screen and (max-width: 768px){
+    #erku{
+       width: 300px;
+    }
+    #irec{
+       width: 300px;
+    }
+    #cors{
+        width: 300px;
+    }
+    .lll{
+         width: 400px;
+         height: 300px;
+        
+    }
+    .l5{
+     justify-content: center;
+    }
+     
+   
+    .bigDiv3{
+        display: flex;
+        height: 450px;
+    }
+    #h{
+        width: 100px;
+    }
+    #v{
+        width: 100px;
+    }
+    #y{
+        width: 100px;
+    }
+    
+    .lp{
+      height: 300px;
+
+    }
+     #Big2{
+         height: 200px;
+     }
+     #rio{
+         width: 200px;
+     }
+     #wan{
+         width: 310px;
+     }
+     #tri{
+         width: 220px;
+     }
+     #for{
+         width: 100px;
+     }
+     .text1 {
+        font-size: 20px
+            
+      }
+      .ai{
+          height: 300px;
+      }
+      .bigDiv3{
+          justify-content: center;
+      }
+}
+@media only screen and (max-width: 800px){
+    #Big1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 514px){
+    .text1 {
+        font-size: 15px
+            
+      }
+      #imgut{
+          width: 200px;
+      }
+      #but1  {
+        height: 40px;
+           width: 80px;
+          
+         
+       }
+       #but2  {
+           height: 40px;
+           width: 80px;
+             
+            
+          }
+          #Big2{
+            height: 150px;
+        }
+        #small2 ul  {
+            display: flex;
+          flex-direction: column;
+          margin: 5px;
+          
+        }
+        #small2 ul li {
+        
+          margin: 10px;
+          
+        }
+        #rio{
+            display: none;
+        }
+}
+@media only screen and (min-width: 1000px){
+    #rio{
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 920px){
+
+
+}
+@media only screen and (max-width: 924px){
+    .o{
+        height: 800px;
+    }
+    .oo{
+        height: 800px;
+
+    }
+}
+@media only screen and (max-width: 560px){
+    .book{
+        width: 400px;
+        height: 300px;
+       
+   }
+   #pu{
+    width: 300px;
+ }
+ #pu1{
+    width: 300px;
+ }
+ #pu2{
+     width: 300px;
+ }
+ .prrr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+     
+ }
+ .sle{
+     height: 1900px;
+ }
+  
+ .xas1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+ .xas2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .xas3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .xas4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+}
+
+
+
+
+
+ */
